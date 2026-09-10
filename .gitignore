@@ -1,0 +1,59 @@
+# environment and tooling
+.ipynb_checkpoints/
+__pycache__/
+@eaDir/
+.specstory/
+.cursorindexingignore
+.gitattributes
+*.pyc
+*.py~
+*.env
+
+# model weights, archives, and data
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.gguf
+*.whl
+*.tgz
+*.zip
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.json
+*.png
+*.jpg
+*.svg
+*.pdf
+*.txt
+!requirements.txt
+*.cfg
+*.jinja
+*.model
+*.tiktoken
+
+# reference material and third-party packages
+00_resource/models/
+00_resource/repos/
+00_resource/notes/
+00_resource/submission/LOCAL WORKABLE PACKAGE/
+00_resource/submission/SD-LLM/Qwen3-14B-unsloth-bnb-4bit/
+kaggle_evaluation/
+en_core_web_lg/
+paligemma2-10b-mix-448/
+sdxl-flash/
+clip-vit-large-patch14/
+sac-logos-ava1-l14-linearmse/
+lora/
+
+# data folders
+01_data/prompt_set/*
+!01_data/prompt_set/extract_captions.py
+01_data/target_images/
+01_data/TEST_IMAGE/
+
+# files with credentials
+01_data/VQA_gen.ipynb
+00_resource/submission/SD-LLM/00_TestData/llm_tool.py
