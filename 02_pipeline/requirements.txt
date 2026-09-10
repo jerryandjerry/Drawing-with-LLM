@@ -1,0 +1,17 @@
+svgwrite
+cairosvg
+openai-clip
+opencv-python 
+scikit-image 
+pillow
+bitsandbytes
+diffuser
+peft
+gguf
+pyarrow
+pandas
+transformers
+diffusers
+vtracer
+spacy
+more_itertools
